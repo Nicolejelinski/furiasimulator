@@ -37,14 +37,18 @@ Node.js v18+
 npm ou yarn
 
 Instalação:
-```git clone https://github.com/seu-usuario/furia-fan-analytics.git
+```
+git clone https://github.com/seu-usuario/furia-fan-analytics.git
 cd furia-fan-analytics
 npm install
+```
+
 Execução:
+```
 bash
 npm start
-Acesse: http://localhost:3000
 ```
+Acesse: http://localhost:3000
 
 ### Dados de Demonstração:
 O sistema utiliza dados mockados para fins de protótipo.
