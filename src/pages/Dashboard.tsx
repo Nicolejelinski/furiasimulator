@@ -1,8 +1,7 @@
-// DashboardFURIA.tsx
+
 import React from 'react';
 
 export default function Dashboard() {
-    // Dados em português
     const dados = {
         horarios: {
             melhores: ['18h', '19h', '20h'],
@@ -28,7 +27,7 @@ export default function Dashboard() {
 
     return (
         <div className="min-h-screen bg-gray-950 text-gray-100 font-sans">
-            {/* Header Elegante */}
+
             <header className="bg-black border-b border-red-900/50 p-6">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
@@ -48,9 +47,7 @@ export default function Dashboard() {
                 </div>
             </header>
 
-            {/* Grid Principal */}
             <main className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-6">
-                {/* Coluna 1 - Horários */}
                 <section className="bg-gray-900/50 rounded-xl border border-gray-800 p-6">
                     <h2 className="text-xl font-medium mb-6 text-white border-b border-gray-800 pb-3">
                         MELHORES HORÁRIOS
@@ -86,7 +83,6 @@ export default function Dashboard() {
                     </div>
                 </section>
 
-                {/* Coluna 2 - Jogadores */}
                 <section className="bg-gray-900/50 rounded-xl border border-gray-800 p-6">
                     <h2 className="text-xl font-medium mb-6 text-white border-b border-gray-800 pb-3">
                         IMPACTO DOS JOGADORES
@@ -119,21 +115,15 @@ export default function Dashboard() {
                     </div>
                 </section>
 
-                {/* Coluna 3 - Mapa e Receita */}
                 <section className="space-y-6">
                     {/* Mapa */}
-                    {/* Substitua todo o conteúdo do mapa por este */}
                     <div className="relative bg-gray-900 rounded-lg border border-gray-800 p-4 h-96">
                         <h3 className="text-lg font-medium mb-4 text-white">DISTRIBUIÇÃO GLOBAL DE FÃS</h3>
 
-                        {/* Container do Mapa */}
                         <div className="relative h-64 w-full">
-                            {/* Mapa estilizado com pontos estratégicos */}
                             <div className="absolute inset-0 flex items-center justify-center">
-                                {/* Base do mapa (fundo sutil) */}
                                 <div className="h-full w-full opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDUwMCI+PHBhdGggZD0iTTUwMCwxMDBDNzAwLDEwMCA5MDAsMzAwIDkwMCw1MDAgTTEwMCw1MEMzMDAsNTAgNTAwLDIwMCA1MDAsMzAwIE01MDAsMzAwQzcwMCw0MDAgODAwLDMwMCA5MDAsNDAwIE0xMDAsNDAwQzMwMCwzMDAgNDAwLDQwMCA1MDAsMzAwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMC41IiBmaWxsPSJub25lIi8+PC9zdmc+')]"></div>
 
-                                {/* Pontos de concentração */}
                                 <div className="absolute" style={{ top: '60%', left: '30%' }}>
                                     <div className="relative">
                                         <div className="absolute inset-0 bg-red-500 rounded-full animate-ping opacity-30"></div>
@@ -184,7 +174,6 @@ export default function Dashboard() {
                             </div>
                         </div>
 
-                        {/* Legenda */}
                         <div className="flex justify-center gap-6 mt-6">
                             {Object.entries(dados.mapaFas).map(([regiao, porcentagem]) => (
                                 <div key={regiao} className="flex items-center">
@@ -202,7 +191,6 @@ export default function Dashboard() {
                     </div>
 
 
-                    {/* Receita */}
                     <div className="bg-gray-900/50 rounded-xl border border-gray-800 p-6">
                         <h2 className="text-xl font-medium mb-4 text-white border-b border-gray-800 pb-3">
                             OPORTUNIDADES
@@ -234,7 +222,6 @@ export default function Dashboard() {
 
 type CoresValidas = 'red' | 'yellow' | 'blue';
 
-// Atualize o componente com tipagem
 const Metrica = ({ titulo, valor, cor }: {
     titulo: string;
     valor: number;
