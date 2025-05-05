@@ -10,10 +10,10 @@ const jogadores = [
         jogos: ["CS2", "Valorant"]
     },
     {
-        nome: "😈 arT",
+        nome: "😈 YURIHH",
         titulo: "O DEMÔNIO DA RUSHA",
-        descricao: "Você é o caos em pessoa. O coach fala 'vamos de slow round' e você já tá rushando B sozinho com uma Deagle. Se fosse dirigir, seria o motoqueiro que corta entre os carros no corredor. Tem dois modos: 0 kills ou carryar o time. Quando acerta um tiro difícil, grita 'VAMOOOO' tão alto que os vizinhos reclamam. Seu histórico de jogo tem mais reports por 'jogar demais' do que por toxicidade. Na vida real seria o cara que pula de paraquedas todo fim de semana e acha relaxante.",
-        imagem: "/images/art.png",
+        descricao: "Você é o YURIHH. O instinto vem antes da call. Enquanto o time pensa, você já tá abrindo espaço no bomb com a confiança de quem sabe o que tá fazendo. Sua mira é afiada, mas o que te define é a coragem de puxar a responsabilidade — e puxar mesmo, de AK ou MP9. Você joga com o coração e com a cabeça, mas é o sangue quente que te faz brilhar. Cada avanço seu é um recado: “Confia no pai.” E quando encaixa aquela bala... o servidor sente.",
+        imagem: "/images/yuurih.png",
         cor: "text-red-500",
         jogos: ["CS2", "Valorant"]
     }
